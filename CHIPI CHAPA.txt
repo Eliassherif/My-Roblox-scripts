@@ -1,0 +1,10 @@
+sound = Instance.new("Sound",workspace)
+sound.Name = "CHIPI CHAPA"
+sound.SoundId = "rbxassetid://16190783444"
+sound:Play()
+sound.Looped = true
+local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("😺CHIPI CHIPI CHAPA CHAPA😺")
+wait(50)
+H:Destroy(50)
